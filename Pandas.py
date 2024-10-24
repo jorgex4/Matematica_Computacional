@@ -26,5 +26,3 @@ def clasificar_notas(nota):
     elif 3 < nota:
         return 'Perdio'
 df['Clasificacion'] = df['Notas'].apply(clasificar_notas)
-    
-       
